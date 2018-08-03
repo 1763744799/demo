@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+          .fixedline {
+			width: 0;
+			height: 100%;
+			border-right: 6px solid #7A6E6E;
+			position: fixed;
+			right: 0;
+			top: 0;
+		}
+
+		 .container {
+			/*width: 35px;*/
+			position: relative;
+			left: -29px;
+			top: 50%;
+			margin-top: -126px;
+		}
+
+		li a {
+			display: block;
+			width: 35px;
+			height: 35px;
+			background-color: #7A6E6E;
+			border-radius: 3px 0 0 3px;
+			background-image: url('toolbars.png');
+		}
+
+		.container a {
+			margin-bottom: 1px;
+		}
+		.one a{
+			background-position: -88px -175px;
+
+		}
+		.two a{
+			background-position: -50px 0;
+
+		}
+      .third a{
+			background-position: -50px -50px;
+
+		}
+		.fourth a{
+			background-position: -50px -100px;
+
+		}
+		.five a{
+			background-position: -190px -150px;
+
+		}
+		.six a{
+			background-position: -50px -150px;
+
+		}
+		.seven a{
+			background-position:  -50px -300px;
+
+		}
+
+		 .back-top {
+			width: 35px;
+			position: absolute;
+			left: -29px;
+			bottom: 0;
+		}
+		 .back-top a {
+			background-position: -50px -250px;
+		}
+		.back-top li em{
+          bottom: 0px;
+          top:-35px;
+		}
+         
+         li a:hover{
+    	background-color: #c81623;
+    }  
+    li a:hover+em{
+    	background-color: #c81623;
+    }
+    
+    .back-top a:hover{
+    	background-color: #c81623;
+    }
+      .back-top a:hover+em{
+    	background-color: #c81623;
+    }
+     li:hover em{
+           	left: -60px;
+             /*background-color: #c81623;*/
+           }
+  li  em{
+       
+      display: block;
+     width: 64px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    font-family: 微软雅黑;
+    margin-bottom: 2px;
+    font-style: normal;
+    background-color: #7a6e6e;
+    border-radius: 3px 0 0 3px;
+			position: relative;
+			left: 35px;
+			top: -36px;
+			transition: left .3s ;
+          }
+          
+           li{
+           	list-style: none;
+           	height: 35px;
+           	margin-bottom: 1px;
+           }
+
+	</style>
+</head>
+<body>
+	<div class="fixedline">
+		<div class="container">
+			<li class="one">
+			<a href="#"></a><em>京东会员</em>
+           </li>
+            <li class="two">
+            <a href="#"></a><em>购物车</em>	
+            </li>
+			<li class="third">
+			<a href="#"></a>	<em>我的关注</em>	
+			</li>
+			<li class="fourth">
+				<a href="#"></a>	<em>我的足迹</em>
+			</li>
+			<li class="five">
+				<a href="#"></a><em>我的消息</em>
+			</li>
+			<li class="six">
+				<a href="#"></a><em>咨询JIMI</em>
+			</li>
+			<li class="seven">
+				<a href="#"></a><em>反馈</em>
+			</li>
+			
+           
+
+		</div>
+
+		<div class="back-top">
+			<li>
+			<a href="#"></a>
+             <em>顶部</em>
+			</li>
+		</div>
+	</div>
+
+</body>
+</html>
